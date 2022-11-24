@@ -4,16 +4,20 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.validacion_de_usuarios.databinding.ActivityMainBinding
+import com.example.validacion_de_usuarios.databinding.ActivityRegisterBinding
 
-class MainActivity : AppCompatActivity() {
-    private lateinit var binding : ActivityMainBinding
+class RegisterActivity : AppCompatActivity() {
+    private lateinit var binding : ActivityRegisterBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding=ActivityMainBinding.inflate(layoutInflater)
+
+        binding=ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.textViewRegister2.setOnClickListener{
-            startActivity(Intent(this,RegisterActivity::class.java))
+        binding.returnButton.setOnClickListener{
+
+            finish();
         }
+
     }
 }
