@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Validacion_de_usuarios</string>
+    <string name="app_name">Validacion de usuarios</string>
+    <string name="bienvenidoAlumno">Bienvenido, alumno </string>
+    <string name="bienvenidoProfesor">Bienvenido, profesor </string>
+    <string name="bienvenidoAdmin">Bienvenido, Administrador </string>
+    <string name="registrate"><u>Regístrate</u></string>
 </resources>

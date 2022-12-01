@@ -13,7 +13,6 @@
         android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintStart_toStartOf="@+id/newUsernameView"
         app:layout_constraintTop_toBottomOf="@+id/newUsernameView" />
 
@@ -75,8 +74,11 @@
         android:layout_width="67dp"
         android:layout_height="21dp"
         android:layout_marginTop="8dp"
-        android:text="Regístrate"
+        android:text="@string/registrate"
         android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/azul"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="@+id/editTextPassword"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textViewRegister"
